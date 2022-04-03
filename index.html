@@ -5,6 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/Navegacion.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Importamos el CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
     <title>Laboratorio_6_Navegacion</title>
   </head>
   <body>
@@ -15,5 +31,33 @@
       <p>Gerardo Hernandez Garcia 1796533 IAS</p>
       <p>Jueves de N1 - N3</p>
     </section>
+    <section>
+      <div class="wrap">
+        <ul class="taps">
+            <li><a id="HPER1" class="active" onclick="activacion1()" href="#tap1"><span class="tab-tex">Navegacion</span></a></li>
+            <li><a id="HPER2" onclick="activacion2()" href="#tap2"><span class="tab-tex">Pagina 1</span></a></li>
+            <li><a id="HPER3" onclick="activacion3()" href="#tap3"><span class="tab-tex">Pagina 2</span></a></li>
+            <li><a id="HPER4" onclick="activacion4()" href="#tap4"><span class="tab-tex">Pagina 3</span></a></li>
+        </ul>
+        </div>
+    </div>
+    </section>
+
+    <script src="JS/Nav.js"></script>
+
+        <!-- Importamos JQuery -->
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <!-- Importamos el JS de Bootstrap -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+
   </body>
 </html>
