@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: ;
+}
+
+.Parametros{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
