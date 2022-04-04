@@ -1,0 +1,57 @@
+.wrap {
+    width: 800px;
+    max-width: 90%;
+    margin: 30px auto;
+  }
+  
+  ul.taps {
+    width: 100%;
+    background: #363636;
+    list-style: none;
+    display: flex;
+  }
+  
+  ul.taps li {
+    width: 18%;
+  }
+  
+  .active {
+    background: #0984cc;
+  }
+  
+  ul.taps li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  
+  ul.taps li a .tab-tex {
+    margin-left: 8px;
+  }
+
+  img{
+      height: 350px;
+      width: 150px;
+  }
+
+  .pa3{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.p3{
+    background-image: url(../imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
